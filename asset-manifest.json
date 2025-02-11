@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/words-world/static/css/main.7188b471.css",
+    "main.js": "/words-world/static/js/main.9df655f7.js",
+    "index.html": "/words-world/index.html",
+    "main.7188b471.css.map": "/words-world/static/css/main.7188b471.css.map",
+    "main.9df655f7.js.map": "/words-world/static/js/main.9df655f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7188b471.css",
+    "static/js/main.9df655f7.js"
+  ]
+}
