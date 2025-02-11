@@ -1,0 +1,62 @@
+.head {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 10px solid red;
+  position: absolute;
+  top: 50px;
+  right: -20px;
+}
+
+.body {
+  height: 100px;
+  width: 10px;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.rightArm {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 95px;
+  right: -90px;
+  rotate: -30deg;
+  transform-origin: "left bottom";
+}
+
+.leftArm {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 95px;
+  right: 0;
+  rotate: 30deg;
+  transform-origin: "right bottom";
+}
+
+.rightLeg {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 235px;
+  right: -70px;
+  rotate: 60deg;
+  transform-origin: "left bottom";
+}
+
+.leftLeg {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 235px;
+  right: -20px;
+  rotate: -60deg;
+  transform-origin: "right bottom";
+}

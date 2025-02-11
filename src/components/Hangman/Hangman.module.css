@@ -1,0 +1,28 @@
+.largePlank {
+  height: 400px;
+  width: 10px;
+  background-color: red;
+  margin-left: 120px;
+}
+
+.bottomPlank {
+  height: 10px;
+  width: 250px;
+  background-color: red;
+}
+
+.mediumPlank {
+  height: 10px;
+  width: 200px;
+  background-color: red;
+  margin-left: 120px;
+}
+
+.smallPlank {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  height: 50px;
+  width: 10px;
+  background-color: red;
+}

@@ -1,0 +1,28 @@
+.keyboard {
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background: none;
+  margin: 3px;
+}
+
+.button:hover:not(:disabled),
+.button:focus:not(:disabled) {
+  background-color: blue;
+  color: yellow;
+}
+.button.active {
+  background-color: blue;
+}
+.button.inactive {
+  background-color: gray;
+  opacity: 0.3;
+}
